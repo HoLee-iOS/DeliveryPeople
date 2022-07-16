@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C123EFE72877B5E800B829A3 /* GithubTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C123EFE62877B5E800B829A3 /* GithubTestViewController.swift */; };
 		C135A3F42874210800A24E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135A3F32874210800A24E3C /* AppDelegate.swift */; };
 		C135A3F62874210800A24E3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135A3F52874210800A24E3C /* SceneDelegate.swift */; };
 		C135A3F82874210800A24E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135A3F72874210800A24E3C /* ViewController.swift */; };
 		C135A3FB2874210800A24E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C135A3F92874210800A24E3C /* Main.storyboard */; };
 		C135A3FD2874210900A24E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C135A3FC2874210900A24E3C /* Assets.xcassets */; };
 		C135A4002874210900A24E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C135A3FE2874210900A24E3C /* LaunchScreen.storyboard */; };
+		C1436A8628832AA100928F7D /* Taps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1436A8528832AA100928F7D /* Taps.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C123EFE62877B5E800B829A3 /* GithubTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTestViewController.swift; sourceTree = "<group>"; };
 		C135A3F02874210800A24E3C /* DeliveryPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C135A3F32874210800A24E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C135A3F52874210800A24E3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		C135A3FC2874210900A24E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C135A3FF2874210900A24E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C135A4012874210900A24E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1436A8528832AA100928F7D /* Taps.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Taps.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 				C135A3F32874210800A24E3C /* AppDelegate.swift */,
 				C135A3F52874210800A24E3C /* SceneDelegate.swift */,
 				C135A3F72874210800A24E3C /* ViewController.swift */,
-				C123EFE62877B5E800B829A3 /* GithubTestViewController.swift */,
 				C135A3F92874210800A24E3C /* Main.storyboard */,
+				C1436A8528832AA100928F7D /* Taps.storyboard */,
 				C135A3FC2874210900A24E3C /* Assets.xcassets */,
 				C135A3FE2874210900A24E3C /* LaunchScreen.storyboard */,
 				C135A4012874210900A24E3C /* Info.plist */,
@@ -130,6 +130,7 @@
 			files = (
 				C135A4002874210900A24E3C /* LaunchScreen.storyboard in Resources */,
 				C135A3FD2874210900A24E3C /* Assets.xcassets in Resources */,
+				C1436A8628832AA100928F7D /* Taps.storyboard in Resources */,
 				C135A3FB2874210800A24E3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +145,6 @@
 				C135A3F82874210800A24E3C /* ViewController.swift in Sources */,
 				C135A3F42874210800A24E3C /* AppDelegate.swift in Sources */,
 				C135A3F62874210800A24E3C /* SceneDelegate.swift in Sources */,
-				C123EFE72877B5E800B829A3 /* GithubTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -336,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
